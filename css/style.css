@@ -1,0 +1,396 @@
+/*
+* {
+    border: 1px solid red;
+}*/
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #F6F1F1;
+}
+
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+nav img{
+    width: 75px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: #017E9B;
+    text-decoration: none;
+    font-size: 15px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #017E9B;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+
+.hero {
+    width: 70%;
+    padding: 2%;
+    margin: auto;
+    background-color: #fff;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+.heroImage {
+    width: 90%;
+}
+
+.headername {
+    background-color: #fff;
+    font-size: 90px;
+    color: #017E9B;
+    font-family: 'Playfair', serif;
+}
+
+.aboutMe {
+    background-color: #fff;
+    font-size: 20px;
+    color: #017E9B; 
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+      'name image'
+      'about image'
+      'about image';
+    gap: 20px;
+    padding: 10px;
+    background-color: #fff;
+    text-align: center;}
+
+
+    .name { 
+        grid-area: name; 
+        text-align: left;
+        background-color: #fff;
+    }
+    .image {  
+        grid-area: image;
+        background-color: #fff;
+     }
+    .about { 
+        grid-area: about;
+        text-align: left;
+        background-color: #fff;}
+
+
+.skill {
+    width: 95%;
+    padding: 30px;
+    margin: auto;
+    background-color: #017E9B;
+    height: 700px;
+}
+
+.skillbox {
+    background-color: #017E9B;
+    padding: 10%;
+}
+
+.skillheader {
+    text-align: center;
+    background-color: #017E9B;
+    color: #fff;
+    font-size: 30px;
+}
+
+.skill-container {
+    display: grid;
+    grid-template-areas:
+      'research persona mapping wireframe'
+      'abtest prototype responsive frontend';
+    gap: 20px;
+    padding: 20px;
+    width: 70%;
+    margin: auto; 
+    background-color: #017E9B;
+    text-align: center; 
+}
+
+.research {  
+    grid-area: research;
+    background-color: #017E9B;
+    padding: 10%;
+ }
+
+ .researchimage {
+    background-color: #017E9B;
+    justify-content: center;
+    align-items: center;
+ }
+
+ h3 {
+    text-align: center;
+    background-color: #017E9B;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+ }
+
+ .persona {  
+    grid-area: persona;
+    background-color: #017E9B;
+    padding: 10%;
+ }
+
+ .personaimage {
+    background-color: #017E9B;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .mapping {  
+    grid-area: mapping;
+    background-color: #017E9B;
+    padding: 10%;
+ }
+
+ .sitemapimage {
+    background-color: #017E9B;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .wireframe {  
+    grid-area: wireframe;
+    background-color: #017E9B;
+    padding: 10%;
+ }
+
+ .wireframeimage {
+    background-color: #017E9B;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .abtest {  
+    grid-area: abtest;
+    background-color: #017E9B;
+    padding: 10%;
+ }
+
+ .testimage {
+    background-color: #017E9B;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .prototype {  
+    grid-area: prototype;
+    background-color: #017E9B;
+    padding: 10%;
+ }
+
+ .prototypeimage {
+    background-color: #017E9B;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .responsive {  
+    grid-area: responsive;
+    background-color: #017E9B;
+    padding: 10%;
+ }
+
+ .responsiveimage {
+    background-color: #017E9B;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .frontend {  
+    grid-area: frontend;
+    background-color: #017E9B;
+    padding: 10%;
+ }
+
+ .frontendimage {
+    background-color: #017E9B;
+    justify-content: center;
+    align-items: center;
+ }
+
+
+
+
+.work {
+    padding-top: 5%;
+}
+
+.worktitle {
+    text-align: center;
+    color: #017E9B;
+    background-color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+ }
+
+
+.work-container {
+    display: grid;
+    grid-template-areas:
+      'fish travel kid';
+    gap: 30px;
+    padding: 20px;
+    width: 70%;
+    margin: auto; 
+    background-color: #F6F1F1;
+    text-align: center;   
+}
+
+.workheader {
+    background-color: #F6F1F1;
+    color: #017E9B; 
+    font-size: 30px;
+    text-align: center;
+}
+
+.fish {  
+    grid-area: fish;
+    background-color: #fff;
+    padding: 10%;
+    box-shadow: 5px 10px 8px #888888;
+ }
+
+ .fishimage {
+    width: 90%;
+    background-color: #fff;
+ }
+
+ .travel {  
+    grid-area: travel;
+    background-color: #fff;
+    padding: 10%;
+    box-shadow: 5px 10px 8px #888888;
+ }
+
+ .travelimage {
+    width: 100%;
+    background-color: #fff;
+ }
+
+ .kid {  
+    grid-area: kid;
+    background-color: #fff;
+    padding: 10%;
+    box-shadow: 5px 10px 8px #888888;
+ }
+
+ .kidimage {
+    width: 90%;
+    background-color: #fff;
+ }
+
+ footer {
+    padding: 30px;
+    text-align: center;
+    color: #017E9B; 
+    font-family: 'Poppins', sans-serif;
+}
+
+@media(max-width: 600px){
+    
+    .heroImage {
+        width: 70%;
+    }
+    
+    .headername {
+        font-size: 40px;
+        text-align: center;
+    }
+    
+    .aboutMe {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .grid-container {
+        grid-template-areas: 
+          'name'
+          'image'
+          'about';
+        gap: 10px;
+        padding: 10px;
+        background-color: #fff;
+        text-align: center;
+        }
+
+        .skill {
+            width: 80%;
+        }
+
+        .skillheader { font-size: 20px;}
+
+        .skill-container {
+            grid-template-areas:
+            'research persona'
+            'mapping wireframe'
+            'abtest prototype'
+            'responsive frontend';
+            gap: 10px;
+            padding: 10px;
+            width: 90%;
+            margin: auto; 
+            background-color: #017E9B;
+            text-align: center; 
+        }   
+
+        .researchimage { width: 90%;}
+        .personaimage {width: 90%;}
+        .sitemapimage {width: 90%;}
+        .wireframeimage {width: 90%;}
+        .testimage {width: 90%;}
+        .prototypeimage {width: 90%;}
+        .responsiveimage {width: 90%;}
+        .frontendimage {width: 90%;}
+        h3 {font-size: 16px;
+        text-align: center;
+    }
+
+    .work-container {
+        grid-template-areas:
+          'fish' 
+          'travel' 
+          'kid';
+        gap: 10px;
+        padding: 10px;
+        width: 70%;
+        margin: auto;    
+    }
+
+     .workheader {font-size: 20px;}
+    .worktitle {
+        font-size: 10px;
+    }
+}
