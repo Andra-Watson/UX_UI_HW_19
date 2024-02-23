@@ -319,7 +319,46 @@ nav img{
     font-family: 'Poppins', sans-serif;
 }
 
+nav .fa{
+    display: none;
+}
+
 @media(max-width: 600px){
+
+    .nav-links ul li{
+        display: block;
+        background-color: #017E9B;
+    }
+
+    .nav-links{
+        position: absolute;
+        background: #017E9B;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+    }
+
+    .nav-links ul li a{
+        color: #fff;
+        background-color: #017E9B;
+    }
+
+    nav .fa{
+        display: block;
+        color: #fff;
+        background-color: #017E9B;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+
+    .nav-links ul{
+        padding: 30px;
+        background-color: #017E9B;
+    }
     
     .heroImage {
         width: 70%;
