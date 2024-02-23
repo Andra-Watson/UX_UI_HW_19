@@ -21,7 +21,7 @@
                         <li><a href="">RESUME</a></li>
                     </ul>
                 </div>
-                <i class="fa fa-bars" onclick="showMenu()></i>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
             </nav>   
         </section>
 
@@ -111,9 +111,51 @@
                 </div>
             </div>
         </section>
+
+        <section class="contactme">
+            
+            <div class="contact-container">
+
+                <div class="contact">
+                    <img src="Images/contact.png" class="contactimage">
+                </div>
+
+                <div class="title">
+                    <h1 class="contacttitle">Let's Connect!</h1>
+                </div>
+
+                <div class="email">
+                    <img src="Images/Email.png" class="emailimage">
+                </div>
+
+                <div class="social">
+                    <img src="Images/Linkedin.png" class="socialimage">
+                </div>
+
+            </div>
+            
+        </section>
+
+
+
         <footer>
             <p>Design and coded by Andra Watson. Copyright 2024 </p>
         </footer>
+
+        <script>
+
+           var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                 navLinks.style.right = "0";
+                    }
+
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+
+        </script>
+
     </body>
 
     <script src="js/index.js"></script>

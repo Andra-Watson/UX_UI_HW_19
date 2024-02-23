@@ -245,6 +245,7 @@ nav img{
 
 .work {
     padding-top: 5%;
+    padding-bottom: 10%;
 }
 
 .worktitle {
@@ -281,6 +282,7 @@ nav img{
     background-color: #fff;
     padding: 10%;
     box-shadow: 5px 10px 8px #888888;
+    cursor: pointer;
  }
 
  .fishimage {
@@ -293,6 +295,7 @@ nav img{
     background-color: #fff;
     padding: 10%;
     box-shadow: 5px 10px 8px #888888;
+    cursor: pointer;
  }
 
  .travelimage {
@@ -305,6 +308,7 @@ nav img{
     background-color: #fff;
     padding: 10%;
     box-shadow: 5px 10px 8px #888888;
+    cursor: pointer;
  }
 
  .kidimage {
@@ -312,6 +316,78 @@ nav img{
     background-color: #fff;
  }
 
+
+
+.contactme {
+    padding: 1%;
+}
+
+
+ .contact-container {
+    display: grid;
+    grid-template-areas:
+    'contact contact'
+    'title title'
+    'email social';
+    gap: 10px;
+    padding: 20px;
+    width: 30%;
+    margin: auto; 
+    background-color: #fff;
+    text-align: center;   
+    box-shadow: 5px 10px 8px #888888;
+}
+
+.contact {  
+    grid-area: contact;
+    background-color: #fff;
+    text-align: center;
+}
+
+.contactimage {
+    width: 10%;
+    background-color: #fff;
+}
+
+.title {  
+    grid-area: title;
+    background-color: #fff;
+}
+
+
+.contacttitle{
+    font-size: 50px;
+    background-color: #fff;
+    color: #017E9B;
+    font-family: 'Playfair', serif;
+    font-weight: 600;
+}
+
+.email {  
+    grid-area: email;
+    background-color: #fff;
+    text-align: right; 
+    cursor: pointer;
+}
+
+.emailimage {
+    width: 20%;
+    background-color: #fff;
+}
+
+.social {  
+    grid-area: social;
+    background-color: #fff;
+    text-align: left;
+    cursor: pointer;
+}
+
+.socialimage {
+    width: 20%;
+    background-color: #fff;
+}
+
+ 
  footer {
     padding: 30px;
     text-align: center;
@@ -339,6 +415,7 @@ nav .fa{
         right: -200px;
         text-align: left;
         z-index: 2;
+        transition: 1s;
     }
 
     .nav-links ul li a{
@@ -431,5 +508,21 @@ nav .fa{
      .workheader {font-size: 20px;}
     .worktitle {
         font-size: 10px;
+    }
+
+    .contacttitle{
+        font-size: 16px;
+    }
+
+    .contactimage{
+        width: 20%;
+    }
+
+    .emailimage{
+        width: 40%;
+    }
+
+    .socialimage{
+        width: 40%;
     }
 }
