@@ -54,6 +54,9 @@ nav img{
     margin: auto;
     background-color: #fff;
     box-shadow: 5px 10px 8px #888888;
+    position: relative;
+    z-index: 2;
+    top: 60px;
 }
 
 .heroImage {
@@ -389,8 +392,8 @@ nav img{
 
 
 
-a .fa{ 
-    color: #32aac5; 
+.fa{ 
+    color: #017E9B; 
     text-decoration: none;
     background-color: #F6F1F1;
  }
@@ -494,6 +497,10 @@ nav .fa{
 
         .skill {
             width: 80%;
+        }
+
+        .hero{
+            top: 30px;
         }
 
         .skillheader { font-size: 20px;}
